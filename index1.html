@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stiles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <title>Futbol Argentino</title>
+    <style>
+      .text-success {
+        color: #467bb8 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Mas que un juego</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index1.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jugadores.html">Jugadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estadios.html">Estadios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+
+                   <li class="nav-item">
+              <a class="nav-link" href="hinchadas.html">Hinchadas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="bienvenida">
+      <h1>El fútbol en Argentina es más que fútbol</h1>
+      <p>
+        Es pasión, es cultura, es identidad. Es el grito de gol en la garganta
+        del pueblo, es la bandera en la ventana, el potrero en la esquina y la
+        camiseta que se hereda de generación en generación. En Argentina, el
+        fútbol no se juega...
+        <strong>se vive.</strong>
+      </p>
+ <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="kempes.jpg"  class="d-block w-100 img-fluid" alt="...">
+          
+    </div>
+    <div class="carousel-item">
+      <img src="maradona.jpg" class="d-block w-100 img-fluid" alt="...">
+
+    </div>
+    <div class="carousel-item">
+      <img src="messi-copa.jpg" class="d-block w-100 img-fluid" alt="...">
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <br />
+    <div class="intro">
+      <div>
+        Detrás de cada camiseta, hay una historia. En el fútbol argentino, cada
+        club representa una identidad, una forma de vivir, de hablar y de
+        sentir. No es solo la pelota: son los códigos, las promesas en la
+        esquina, las lágrimas en la tribuna y los abrazos eternos después de un
+        gol. En estas tierras, el fútbol no se ve: se respira. Se hereda, se
+        discute, se sufre y se ama como parte de la vida misma.
+        <br />
+        En esta página te mostraremos por qué el fútbol argentino es único en el
+        mundo. Vas a recorrer su historia, conocer a sus protagonistas, revivir
+        momentos inolvidables y descubrir cómo este deporte se convirtió en una
+        pasión que atraviesa generaciones. Desde los clubes más emblemáticos
+        hasta las hinchadas más fieles, cada rincón de esta web late con el
+        ritmo intenso del fútbol criollo
+      </div>
+    </div>
+
+    <section class="tabla container-fluid my-5 px-2">
+      <h2 class="text-center mb-4">
+        Campeones del Fútbol Argentino (1931–2025)
+      </h2>
+      <div
+        class="table-container shadow rounded border border-3 border-primary p-2"
+      >
+        <table
+          class="table table-bordered table-hover align-middle text-center table-sm w-100"
+          style="table-layout: auto; word-wrap: break-word; font-size: 0.85rem"
+        >
+          <thead class="bg-primary text-white">
+            <tr>
+              <th style="width: 20%">Año</th>
+              <th style="width: 40%">Campeón</th>
+              <th style="width: 40%">Subcampeón</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1931</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1932</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1933</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1934</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1935</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1936</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1937</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1938</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1939</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1940</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1941</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1942</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1943</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1944</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1945</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1946</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1947</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1948</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1949</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1950</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1951</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1952</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1953</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1954</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1955</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1956</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1957</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1958</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1959</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1960</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1961</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1962</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1963</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1964</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1965</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1966</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1967</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1968</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1969</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1970</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1971</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1972</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1973</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1974</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1975</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1976</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1977</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1978</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1979</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1980</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1981</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1982</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1983</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1984</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1985</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1986</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1987</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1988</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1989</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>1990</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1991</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>1992</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>1993</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>1994</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>1995</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>1996</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>1997</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>1998</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>1999</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>2000</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>2001</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>2002</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>2003</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>2004</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>2005</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>2006</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>2007</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>2008</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>2009</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>2010</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>2011</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>2012</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+
+            <tr>
+              <td>2013</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+
+            <tr>
+              <td>2014</td>
+              <td><strong class="text-success">San Lorenzo</strong></td>
+              <td><span class="text-danger">Independiente</span></td>
+            </tr>
+
+            <tr>
+              <td>2015</td>
+              <td><strong class="text-success">Racing Club</strong></td>
+              <td><span class="text-danger">Huracán</span></td>
+            </tr>
+
+            <tr>
+              <td>2016</td>
+              <td><strong class="text-success">Vélez Sarsfield</strong></td>
+              <td><span class="text-danger">Racing Club</span></td>
+            </tr>
+
+            <tr>
+              <td>2017</td>
+              <td><strong class="text-success">Huracán</strong></td>
+              <td><span class="text-danger">Vélez Sarsfield</span></td>
+            </tr>
+
+            <tr>
+              <td>2018</td>
+              <td><strong class="text-success">Newell's</strong></td>
+              <td><span class="text-danger">Rosario Central</span></td>
+            </tr>
+
+            <tr>
+              <td>2019</td>
+              <td><strong class="text-success">Estudiantes LP</strong></td>
+              <td><span class="text-danger">Argentinos Jrs</span></td>
+            </tr>
+
+            <tr>
+              <td>2020</td>
+              <td><strong class="text-success">Lanús</strong></td>
+              <td><span class="text-danger">Banfield</span></td>
+            </tr>
+
+            <tr>
+              <td>2021</td>
+              <td><strong class="text-success">Boca Juniors</strong></td>
+              <td><span class="text-danger">River Plate</span></td>
+            </tr>
+
+            <tr>
+              <td>2022</td>
+              <td><strong class="text-success">River Plate</strong></td>
+              <td><span class="text-danger">Boca Juniors</span></td>
+            </tr>
+            class="text-success"
+
+            <tr>
+              <td>2023</td>
+              <td><strong class="text-success">Independiente</strong></td>
+              <td><span class="text-danger">San Lorenzo</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="tabla container-fluid my-5 px-2">
+      <h2 class="text-center mb-4">Títulos de Liga por Club</h2>
+      <div
+        class="table-container shadow rounded border border-3 border-success p-2"
+      >
+        <table
+          class="table table-bordered table-hover align-middle text-center table-sm w-100"
+          style="table-layout: auto; word-wrap: break-word; font-size: 0.85rem"
+        >
+          <thead class="bg-success text-white">
+            <tr>
+              <th>Club</th>
+              <th>Cantidad de Títulos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="negrita">River Plate</td>
+              <td>38</td>
+            </tr>
+            <tr>
+              <td class="negrita">Boca Juniors</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td class="negrita">Independiente</td>
+              <td>16</td>
+            </tr>
+            <tr>
+              <td class="">San Lorenzo</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td class="negrita">Racing Club</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td class="">Vélez Sarsfield</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td class="">Newell's Old Boys</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td class="">Estudiantes LP</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td class="">Huracán</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td class="">Lanús</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td class="">Rosario Central</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td class="">Argentinos Juniors</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td class="">Banfield</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td class="">Ferro</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td class="">Chacarita Juniors</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td class="">Arsenal</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  <section class="tabla container-fluid my-5 px-2">
+          <h2 class="text-center mb-4">
+        Maximos Goleadores 
+      </h2>
+<ol class="list-group list-group-numbered shadow rounded border border-3 border-warning p-2">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Arsenio Erico</div>
+      Independiente
+    </div>
+    <span class="badge text-bg-primary rounded-pill">295</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Ángel Labruna</div>
+      River Plate
+    </div>
+    <span class="badge text-bg-primary rounded-pill">294 </span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Manuel Seoane</div>
+      Independiente, Progresista, El Porvenir
+    </div>
+    <span class="badge text-bg-primary rounded-pill">249</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Herminio Masantonio</div>
+      Independiente, Progresista, El Porvenir
+    </div>
+    <span class="badge text-bg-primary rounded-pill">244</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Bernabé Ferreyra</div>
+      Tigre, River Plate
+    </div>
+    <span class="badge text-bg-primary rounded-pill">235</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Manuel Pelegrani</div>
+     Estudiantes, Huracan
+    </div>
+    <span class="badge text-bg-primary rounded-pill">231</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Roberto Cherro</div>
+      Sportivo Barracas, Quilmes, Ferro, Boca Juniors
+    </div>
+    <span class="badge text-bg-primary rounded-pill">230</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Martín Palermo</div>
+      estudiantes, Boca Juniors
+    </div>
+    <span class="badge text-bg-primary rounded-pill">227</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">José Sanfilippo</div>
+      San Lorenzo, Boca Juniors, Banfield
+    </div>
+    <span class="badge text-bg-primary rounded-pill">226</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Ricardo Infante</div>
+      Estudiantes, Huracan, Gimnasia y Esgrima de La Plata
+    </div>
+    <span class="badge text-bg-primary rounded-pill">217</span>
+  </li>
+</ol>
+  </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <br />
+  <br />
+</html>
