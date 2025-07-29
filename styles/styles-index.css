@@ -42,7 +42,7 @@
     align-items: center;
   }
   #carouselExampleCaptions img {
-    max-width: 60%; /* reducimos el ancho */
+    max-width: 16cm; /* reducimos el ancho */
     margin: 0 auto; /* centramos la imagen */
     display: block;
   }
@@ -63,11 +63,5 @@
     width: 700px;
     margin: 0 auto;
     line-height: 1.6;
-  }
-
-  .copa {
-    margin-top: 10px;
-    width: 20%;
-    height: 20%;
   }
 }
