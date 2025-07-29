@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.galeria-tarjetas {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: aparecer 0.8s ease-out forwards;
+  animation-delay: var(--delay, 0s);
+}
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+}
+
+.tarjeta h3,
+.tarjeta p {
+  padding: 10px;
+  margin: 0;
+}
+
+.tarjeta h3 {
+  font-size: 1.1rem;
+  color: #333;
+  color: blue;
+}
+
+.tarjeta p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: aparecer 0.8s ease-out forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .foto-texto p {
+    font-size: 0.8rem;
+  }
+}
+.carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: auto; /* Altura fija para desktop */
+}
+
+.card {
+  margin-top: 50px;
+}
+.img-fluid {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alineación horizontal: izquierda */
+    align-items: flex-start; /* Alineación vertical: arriba */
+    height: 100vh;
+  }
+  #carouselExampleCaptions img {
+    max-width: 60%; /* reducimos el ancho */
+    margin: 0 auto; /* centramos la imagen */
+    display: block;
+  }
+  .carousel-inner img {
+    height: 40%; /* Altura más baja para móviles */
+    width: auto;
+  }
+  .tabla {
+    display: flex;
+    flex-direction: row;
+  }
+  .galeria-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .tarjeta {
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .tarjeta img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .tarjeta h3 {
+    margin: 15px 10px 5px;
+    font-size: 1.2rem;
+  }
+
+  .tarjeta p {
+    font-size: 0.95rem;
+    padding: 0 10px 15px;
+    color: #555;
+  }
+  .galeria-tarjetas h3 {
+    color: blue;
+  }
+}

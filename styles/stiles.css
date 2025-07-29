@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col {
+  background-color: #333;
+}
+.card {
+  background-color: #333;
+}
+@media (max-width: 576px) {
+  .foto-texto p {
+    font-size: 0.8rem;
+  }
+}
+.carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: auto; /* Altura fija para desktop */
+}
+
+.card {
+  margin-top: 50px;
+}
+.img-fluid {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alineación horizontal: izquierda */
+    align-items: flex-start; /* Alineación vertical: arriba */
+    height: 100vh;
+  }
+  #carouselExampleCaptions img {
+    max-width: 60%; /* reducimos el ancho */
+    margin: 0 auto; /* centramos la imagen */
+    display: block;
+  }
+  .carousel-inner img {
+    height: 40%; /* Altura más baja para móviles */
+    width: auto;
+  }
+  .tabla {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bienvenida {
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    background-color: transparent;
+  }
+
+  .bienvenida p {
+    font-size: 3vh;
+    color: #333;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .contenedor-imagenes {
+    margin-top: 60px;
+    flex-direction: row; /* En compu, una al lado de la otra */
+    gap: 1px;
+    justify-content: start;
+    align-items: start;
+  }
+}

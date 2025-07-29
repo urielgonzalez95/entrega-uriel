@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bienvenida {
+  padding: 60px 20px;
+  background-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bienvenida h1 {
+  font-size: 2.2rem;
+
+  margin-bottom: 20px;
+}
+
+.bienvenida p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Hace que no se sobrepase en pantallas chicas */
+.tabla-campeones table {
+  word-break: break-word;
+  font-size: 0.9rem;
+}
+.negrita {
+  color: #002c5f;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .bienvenida h1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
+  #carouselExampleCaptions img {
+    max-width: 60%; /* reducimos el ancho */
+    margin: 0 auto; /* centramos la imagen */
+    display: block;
+  }
+
+  .tabla {
+    position: static;
+    display: block;
+  }
+
+  .bienvenida {
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+    background-color: transparent;
+  }
+
+  .bienvenida p {
+    font-size: 3vh;
+    color: #333;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .copa {
+    margin-top: 10px;
+    width: 20%;
+    height: 20%;
+  }
+}
