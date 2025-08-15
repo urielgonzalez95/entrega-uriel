@@ -4,7 +4,15 @@
   animation: aparecer 0.8s ease-out forwards;
   animation-delay: var(--delay, 0s);
 }
-
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 @keyframes aparecer {
   to {
     opacity: 1;
